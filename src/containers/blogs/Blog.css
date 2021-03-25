@@ -2,7 +2,7 @@
 .square {
   width: 440px;
   height: 430px;
-  background: white;
+  background: #3eb0aa;
   border-radius: 4px;
   box-shadow: 0px 20px 50px #d9dbdf;
   -webkit-transition: all 0.3s ease;

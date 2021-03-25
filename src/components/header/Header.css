@@ -2,11 +2,11 @@
 
 .dark-menu {
   background-color: #171c28 !important;
-  color: white;
+  color: #3eb0aa;
 }
 
 .dark-menu li a {
-  color: white !important;
+  color: #3eb0aa !important;
 }
 
 .dark-menu li a:hover {
@@ -14,7 +14,7 @@
 }
 
 .header {
-  background-color: #fff;
+  background-color: #3eb0aa;
   max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
@@ -100,7 +100,7 @@
 
 .header .menu-icon .navicon-dark:before,
 .header .menu-icon .navicon-dark:after {
-  background: white !important;
+  background: #3eb0aa !important;
   content: "";
   display: block;
   height: 100%;
