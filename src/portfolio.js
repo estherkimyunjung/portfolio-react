@@ -261,6 +261,22 @@ const bigProjects = {
       ],
     },
     {
+      image: require("./assets/images/Facebook-Clone-HomePage.jpg"),
+      projectName: "Facebook-clone",
+      projectDesc:
+        "Posting images and comments on SNS (Facebook-clone app) build by Google authentication, React context API (REDUX pattern), realtime database, embed facebook feed, and deploy with firebase.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://facebookbyesther.web.app/",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/estherkimyunjung/Facebook-Esther",
+        },
+      ],
+    },
+    {
       image: require("./assets/images/Airbnb-HomePage.png"),
       projectName: "Airbnb-clone",
       projectDesc:
