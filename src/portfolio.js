@@ -292,6 +292,22 @@ const bigProjects = {
         },
       ],
     },
+    {
+      image: require("./assets/images/Airbnb-HomePage.png"),
+      projectName: "Covid-19 TRACKER",
+      projectDesc:
+        "The App created Node.js backend, React JS frontend with using Open Disease Data API, CSS styled by Material UI, and Hosting by firebase.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://covid-19-tracker-by-esther.web.app",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/estherkimyunjung/Covid-19_Tracker",
+        },
+      ],
+    },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
