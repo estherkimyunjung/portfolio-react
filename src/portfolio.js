@@ -293,7 +293,7 @@ const bigProjects = {
       ],
     },
     {
-      image: require("./assets/images/Airbnb-HomePage.png"),
+      image: require("./assets/images/Covid-19-Tracker-Home.png"),
       projectName: "Covid-19 TRACKER",
       projectDesc:
         "The App created Node.js backend, React JS frontend with using Open Disease Data API, CSS styled by Material UI, and Hosting by firebase.",
