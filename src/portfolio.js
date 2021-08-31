@@ -182,14 +182,25 @@ const workExperiences = {
       ],
     },
     {
-      role: "Franchise Owner/Manager",
+      role: "Franchise Owner",
       company: "Quiznos",
       companylogo: require("./assets/images/quiznosLogo.png"),
-      date: "July 2001 – July 2015",
+      date: "April 2006 – July 2015",
       descBullets: [
         "Increased business with improved marketing, excellent customer service strategies, and maintaining top food quality resulting in a 25% increase in sales revenue. Recruited and developed successful operations staff to handle day-to-day business operations",
         "Maintained​ Top 5 in regional store sales throughout store operation",
         "Handled team, customer, and operations issues with professional strategies to meet business goals",
+      ],
+    },
+    {
+      role: "CPA Associate",
+      company: "Dong K. Kim CPA",
+      companylogo: require("./assets/images/accountingImage.jpg"),
+      date: "January 2003 – April 2006",
+      descBullets: [
+        "Supported Certified Public Accountant with tax returns and financial statements for individuals, partnerships, and corporations.",
+        "Prepared W-2 forms, quarterly payroll, and sales tax returns.",
+        "Documented monthly sales reports, and consolidated monthly balance sheets, maintained and organized detailed bookkeeping of accounting records, and built friendly client relationships.",
       ],
     },
   ],
