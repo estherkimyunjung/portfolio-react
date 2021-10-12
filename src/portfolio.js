@@ -14,7 +14,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / React.js / Node.js and some other cool libraries and frameworks."
   ),
-  resumeLink: require("./assets/EstherKim-Resume.pdf"),
+  resumeLink: require("./assets/EstherKim_Resume.pdf"),
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
