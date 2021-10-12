@@ -44,5 +44,16 @@
   },
   "devDependencies": {
     "prettier": "^2.2.1"
+  },
+  "description": "This is a ReactJS based personal resume website ![ReactJS Resume Website Template](portfolio.png?raw=true \"ReactJS Resume Website Template\")",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estherkimyunjung/portfolio-react.git"
+  },
+  "author": "esther",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/estherkimyunjung/portfolio-react/issues"
   }
 }
