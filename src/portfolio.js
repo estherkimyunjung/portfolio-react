@@ -184,7 +184,7 @@ const workExperiences = {
       ],
     },
     {
-      role: "Franchise Owner",
+      role: "Franchisee",
       company: "Quiznos",
       companylogo: require("./assets/images/quiznosLogo.png"),
       date: "April 2006 – July 2015",
