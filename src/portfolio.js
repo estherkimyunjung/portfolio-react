@@ -14,7 +14,7 @@ const greeting = {
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of designing and building Web and Mobile applications with JavaScript / React.js / Node.js and some other cool libraries and frameworks."
   ),
-  resumeLink: require("./assets/EstherKim_Resume.pdf"),
+  resumeLink: require("./assets/EstherKim-Resume.pdf"),
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -99,6 +99,25 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "Flatiron School",
+      logo: require("./assets/images/flatironLogo.png"),
+      subHeader: "Full-Stack Software Engineering Certificate",
+      duration: "2020 - 2020",
+      desc:
+        "Immersive software engineering program with Ruby/Rails backend and JS frontend with React & Redux.",
+      descBullets: [
+        "Tech scholarship award, Acknowledge by Medium & Analytics Vidhya Editor",
+      ],
+    },
+    {
+      schoolName: "En·Core Co.",
+      logo: require("./assets/images/encoreLogo.png"),
+      subHeader: "Front-end Web Development Certificate",
+      duration: "2019 - 2019",
+      desc:
+        "Programming course in HTML, CSS, JS, and jQuery, Training on Agile/SCRUM Workflow",
+    },
+    {
       schoolName: "Konyang University",
       logo: require("./assets/images/konyangLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
@@ -106,23 +125,6 @@ const educationInfo = {
       desc:
         "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Department valedictorian award, Dean's award"],
-    },
-    {
-      schoolName: "Flatiron School",
-      logo: require("./assets/images/flatironLogo.png"),
-      subHeader: "Full-Stack Software Engineering Certificate",
-      duration: "2020 - 2020",
-      desc:
-        "Immersive software engineering program with Ruby/Rails backend and JS frontend with React & Redux.",
-      descBullets: ["Tech scholarship award"],
-    },
-    {
-      schoolName: "En·Core Co.",
-      logo: require("./assets/images/encoreLogo.png"),
-      subHeader: "Front-end Web Development Certificate",
-      duration: "2020 - 2020",
-      desc:
-        "Programming course in HTML, CSS, JS, and jQuery, Training on Agile/SCRUM Workflow",
     },
   ],
 };
@@ -213,7 +215,7 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: "estherkimyunjung", // Change to your github username to view your profile in Contact Section.
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -252,6 +254,22 @@ const bigProjects = {
         {
           name: "Github",
           url: "https://github.com/estherkimyunjung/Amazon-clone",
+        },
+      ],
+    },
+    {
+      image: require("./assets/images/Covid-19-Tracker-Home.png"),
+      projectName: "Covid-19 TRACKER",
+      projectDesc:
+        "The App created Node.js backend, React JS frontend with using Open Disease Data API, CSS styled by Material UI, and Hosting by firebase.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://covid-19-tracker-by-esther.web.app",
+        },
+        {
+          name: "Github",
+          url: "https://github.com/estherkimyunjung/Covid-19_Tracker",
         },
       ],
     },
@@ -300,22 +318,6 @@ const bigProjects = {
         {
           name: "Github",
           url: "https://github.com/estherkimyunjung/Airbnb-Esther",
-        },
-      ],
-    },
-    {
-      image: require("./assets/images/Covid-19-Tracker-Home.png"),
-      projectName: "Covid-19 TRACKER",
-      projectDesc:
-        "The App created Node.js backend, React JS frontend with using Open Disease Data API, CSS styled by Material UI, and Hosting by firebase.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://covid-19-tracker-by-esther.web.app",
-        },
-        {
-          name: "Github",
-          url: "https://github.com/estherkimyunjung/Covid-19_Tracker",
         },
       ],
     },
